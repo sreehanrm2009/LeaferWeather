@@ -19,7 +19,7 @@ let weather = {
       speed
     } = data.wind;
     document.querySelector(".city").innerHTML = "Weather in " + name;
-    document.querySelector(".icon").src = "http://openweathermap.org/img/wn/" + icon + ".png";
+    document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description").innerHTML = description;
     document.querySelector(".temp").innerHTML = temp + "°C";
     document.querySelector(".humidity").innerHTML = "Humidity: " + humidity + "%";
